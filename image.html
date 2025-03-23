@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+</head>
+<body>
+    <h1>Welcome to the Student Dashboard</h1>
+
+    <!--<?php
+    if (isset($_SESSION["student_id"])) {
+        echo '<p>Hello, ' . $_SESSION["student_name"] . '!</p>';
+    }
+    ?>-->
+
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="profileImage">Upload Profile Image:</label>
+        <input type="file" name="profileImage" id="profileImage" accept="image/*">
+        <br>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>

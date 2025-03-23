@@ -1,0 +1,121 @@
+body {
+    background-color: #268ea8; /* Set your desired background color */
+    font-family: Arial, sans-serif;
+     background-image: url(https://cdn.wallpapersafari.com/74/13/z2BZAw.jpg); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-repeat: no-repeat; /* Prevents the background image from repeating */
+            background-attachment: fixed; /* Fixes the background image so it doesn't scroll with the page */
+            font-family: Arial, sans-serif;
+            margin: 0; 
+}
+
+.signup-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #cbec0e;
+    color: #110f0f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: rgba(14, 14, 14, 0.6); /* Set your desired form background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 14, 0.7);
+    bottom:20px;
+    right:20px;
+    
+    
+}
+
+table {
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50; /* Set your desired button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Change color on hover if desired */
+}
+
+a {
+    text-decoration: none;
+    color: #1d05f1; /* Set your desired link color */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+p {
+    color: red;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.menu-item {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background-color: #555;
+}
+
+#content {
+    padding: 20px;
+    border: 1px solid #aade1c;
+    margin: 20px;
+    background-color: #932828;
+}

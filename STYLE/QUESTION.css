@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #23c2df;
+    margin: 0;
+    padding: 0;
+    color: #495057;
+    background-image: url(https://images.pexels.com/photos/3255761/
+    pexels-photo-3255761.jpeg?
+    auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-repeat: no-repeat; /* Prevents the background image from repeating */
+            background-attachment: AUTO; /* Fixes the background image so it doesn't scroll with the page */
+            font-family: Arial, sans-serif;
+            margin: 0; 
+}
+
+center {
+    margin-top: 30px;
+}
+
+h3 {
+    color: #0d0f10;
+}
+
+h1 {
+    color: #0e0f10;
+}
+
+hr {
+    border: 2px solid #007bff;
+    margin: 20px 0;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #cbb9b9;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(16, 10, 10, 0.1);
+}
+
+th {
+ background-color:green;
+  text-decoration:underline;
+  color:#0056b3;
+}
+td {
+    padding: 15px;
+    border-bottom: 1px solid #0e0c0c;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+    color: #0f0f10;
+    margin-right: 15px;
+}
+
+a:hover {
+    color: #0056b3;
+}

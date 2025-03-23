@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #82ae7e;
+    margin: 0;
+    padding: 0;
+}
+
+center {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+hr {
+    border: 1px solid #ddd;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:white;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #54acb8;
+    color: white;
+}
+
+td {
+    background-color: #54acb8;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    table {
+        width: 80%;
+    }
+}
+
+button {
+    margin: 20px 30px;
+    background-color: burlywood;
+    color: #0c0c0c; /* Dark text color */
+    text-align: center;
+    border-radius: 5px;
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Adjust padding */
+    font-size: 16px; /* Increase font size */
+    cursor: pointer; /* Add pointer cursor */
+    transition: background-color 0.3s, color 0.3s; /* Add smooth transition */
+}
+
+button:hover {
+    background-color: #8a735e; /* Darken background color on hover */
+    color: white; /* Light text color on hover */
+}

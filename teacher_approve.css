@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #93a89e;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://getwallpapers.com/wallpaper/full/8/d/a/1295019-popular-best-nature-hd-wallpapers-1920x1080.jpg);
+			background-size: cover; /* Ensures the image covers the entire background */
+            background-repeat: no-repeat; /* Prevents the background image from repeating */
+            background-attachment: fixed; /* Fixes the background image so it doesn't scroll with the page */
+            font-family: Arial, sans-serif;
+
+}
+
+center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+}
+
+hr {
+    width: 50%;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color:white;
+    color:#ddd;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #91b8a1;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
