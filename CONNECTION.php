@@ -3,8 +3,8 @@
 
 session_start();
 $servername = "localhost";
-$username = "root";
-$password = "//@local@096//";
+$username = "Your_username";
+$password = "your_db_password";
 $dbname = "online_quiz";
 
 // Create connection
